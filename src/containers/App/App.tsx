@@ -4,7 +4,7 @@ import './App.css'
 import {SquareProps} from "../../types";
 
 function createItems() {
-    const limit = 5;
+    const limit = 36;
     const random = Math.floor(Math.random() * limit);
     let array: SquareProps[] = [];
     for (let i = 0; i < limit; i++) {
